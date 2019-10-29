@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using X = global::Tests.Diagnostics.NullPointerDereferenceWithFields;
 
 namespace Nullability
 {
