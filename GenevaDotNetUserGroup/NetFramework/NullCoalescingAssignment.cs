@@ -36,4 +36,18 @@ namespace NetFramework
             return value;
         }
     }
+
+    public class AnotherExample2
+    {
+        public static string Moo(string value)
+        {
+            // OpCodes.Brtrue_S Field
+            // Transfers control to a target instruction
+            // (short form) if value is true, not null, or non-zero.
+
+            value ??= (value ??= "default");
+            // do stuff
+            return value;
+        }
+    }
 }
